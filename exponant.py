@@ -24,11 +24,11 @@ def main():
                     squared_number = loop_counter * loop_counter
                     print("{0}² = {1}".format(loop_counter, squared_number))
             else:
-                print("{0} is not positive.".format(positive_integer))
+                print("this is not a positive.".format(positive_integer))
         else:
-            print("{0} is not an integer".format(positive_float))
+            print("this is not an integer".format(positive_float))
     except ValueError:
-        print("{0} is not a valid input".format(positive_string))
+        print("this is not a valid input".format(positive_string))
     finally:
         print("\nDone.")
 
